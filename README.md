@@ -14,3 +14,13 @@ pod 'FXImageTextView', '~> 0.1'
 ```
 
 Then run `pod install`.
+
+### Carthage
+
+Make the following entry in your Cartfile:
+
+```
+github "feixue299/FXImageTextView" ~> 0.1.1
+```
+
+Then run `carthage update`.
