@@ -36,7 +36,7 @@
         [self addSubview:self.imageView];
         [self addSubview:self.label];
 
-        self.imagePosition = imagePosition;
+        _imagePosition = imagePosition;
         [self fx_update];
     }
     return self;
