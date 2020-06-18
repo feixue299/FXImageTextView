@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C359145E249B09DE004BBEE3 /* FXImageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C359145C249B09DE004BBEE3 /* FXImageTextView.m */; };
+		C359145F249B09DE004BBEE3 /* FXImageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C359145D249B09DE004BBEE3 /* FXImageTextView.h */; };
 		C35D1109249754E400B2B479 /* FXImageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C35D1107249754E400B2B479 /* FXImageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C35D1112249754F200B2B479 /* FXImageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35D1110249754F200B2B479 /* FXImageTextView.m */; };
-		C35D1113249754F200B2B479 /* FXImageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C35D1111249754F200B2B479 /* FXImageTextView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C359145C249B09DE004BBEE3 /* FXImageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXImageTextView.m; sourceTree = "<group>"; };
+		C359145D249B09DE004BBEE3 /* FXImageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXImageTextView.h; sourceTree = "<group>"; };
 		C35D1104249754E400B2B479 /* FXImageTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXImageTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35D1107249754E400B2B479 /* FXImageTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXImageTextView.h; sourceTree = "<group>"; };
 		C35D1108249754E400B2B479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C35D1110249754F200B2B479 /* FXImageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXImageTextView.m; sourceTree = "<group>"; };
-		C35D1111249754F200B2B479 /* FXImageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXImageTextView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +31,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C359145A249B09DE004BBEE3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C359145B249B09DE004BBEE3 /* FXImageTextView */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		C359145B249B09DE004BBEE3 /* FXImageTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C359145C249B09DE004BBEE3 /* FXImageTextView.m */,
+				C359145D249B09DE004BBEE3 /* FXImageTextView.h */,
+			);
+			path = FXImageTextView;
+			sourceTree = "<group>";
+		};
 		C35D10FA249754E400B2B479 = {
 			isa = PBXGroup;
 			children = (
@@ -50,21 +68,11 @@
 		C35D1106249754E400B2B479 /* FXImageTextView */ = {
 			isa = PBXGroup;
 			children = (
-				C35D110F249754F200B2B479 /* Sources */,
+				C359145A249B09DE004BBEE3 /* Sources */,
 				C35D1107249754E400B2B479 /* FXImageTextView.h */,
 				C35D1108249754E400B2B479 /* Info.plist */,
 			);
 			path = FXImageTextView;
-			sourceTree = "<group>";
-		};
-		C35D110F249754F200B2B479 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C35D1111249754F200B2B479 /* FXImageTextView.h */,
-				C35D1110249754F200B2B479 /* FXImageTextView.m */,
-			);
-			name = Sources;
-			path = ../../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +82,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35D1113249754F200B2B479 /* FXImageTextView.h in Headers */,
+				C359145F249B09DE004BBEE3 /* FXImageTextView.h in Headers */,
 				C35D1109249754E400B2B479 /* FXImageTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35D1112249754F200B2B479 /* FXImageTextView.m in Sources */,
+				C359145E249B09DE004BBEE3 /* FXImageTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
