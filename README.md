@@ -10,7 +10,7 @@
 For FXImageTextView, use the following entry in your Podfile:
 
 ```rb
-pod 'FXImageTextView', '~> 0.2'
+pod 'FXImageTextView', '~> 0.1.2'
 ```
 
 Then run `pod install`.
