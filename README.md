@@ -37,3 +37,13 @@ let package = Package(
     // ...
 )
 ```
+## How to use
+
+### Usage In Objective-C
+```objective-c
+FXImageTextView *imageTextView = [[FXImageTextView alloc] initWithFrame:CGRectZero imagePosition:FXImageTextViewImagePositionTop];
+```
+```objective-c
+FXImageTextView *imageTextView = [[FXImageTextView alloc] init];
+imageTextView.imagePosition = FXImageTextViewImagePositionTop;
+```
