@@ -8,8 +8,13 @@ let package = Package(
     platforms: [
         .iOS(.v9)
     ],
+    products: [
+        .library(name: "FXImageTextView", targets: ["FXImageTextView"])
+    ],
     targets: [
         .target(
-            name: "FXImageTextView"),
+            name: "FXImageTextView",
+            path: "Sources/FXImageTextView",
+            publicHeadersPath: "."),
     ]
 )

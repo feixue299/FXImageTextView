@@ -32,7 +32,7 @@ Create a `Package.swift` file.
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/feixue299/FXImageTextView.git", from: "0.1.2")
+        .package(url: "https://github.com/feixue299/FXImageTextView.git", from: "0.1.3")
     ],
     // ...
 )
