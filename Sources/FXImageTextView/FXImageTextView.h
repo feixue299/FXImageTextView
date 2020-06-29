@@ -26,6 +26,8 @@ typedef NS_ENUM (NSUInteger, FXImageTextViewImagePosition) {
 @property (nonatomic) UIEdgeInsets imageEdgeInsets;
 @property (nonatomic) UIEdgeInsets titleEdgeInsets;
 
+@property (nonatomic, strong) UITapGestureRecognizer *tap;
+
 - (instancetype)initWithFrame:(CGRect)frame imagePosition:(FXImageTextViewImagePosition)imagePosition  NS_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder *)coder NS_DESIGNATED_INITIALIZER;
 

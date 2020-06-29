@@ -24,6 +24,7 @@
     if (self = [super initWithFrame:frame]) {
         self.imageView = [[UIImageView alloc] init];
         self.label = [[UILabel alloc] init];
+        self.tap = [[UITapGestureRecognizer alloc] init];
 
         self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
         self.label.translatesAutoresizingMaskIntoConstraints = NO;
@@ -33,6 +34,7 @@
         [self.label setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
         [self.label setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
 
+        [self addGestureRecognizer:self.tap];
         [self addSubview:self.imageView];
         [self addSubview:self.label];
 
