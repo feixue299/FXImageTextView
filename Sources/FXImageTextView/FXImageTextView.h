@@ -1,9 +1,9 @@
 //
 //  FXImageTextView.h
-//  GWCGlobalWeCircle
+//  FXImageTextView
 //
-//  Created by 8-PC on 2020/6/15.
-//  Copyright © 2020 QuantechCo.Limited. All rights reserved.
+//  Created by Mr.wu on 2020/6/15.
+//  Copyright © 2020 Mr.wu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
