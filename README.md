@@ -10,7 +10,7 @@
 For FXImageTextView, use the following entry in your Podfile:
 
 ```rb
-pod 'FXImageTextView', '~> 0.1.2'
+pod 'FXImageTextView', '~> 0.1.4'
 ```
 
 Then run `pod install`.
@@ -20,7 +20,7 @@ Then run `pod install`.
 Make the following entry in your Cartfile:
 
 ```
-github "feixue299/FXImageTextView" ~> 0.1.2
+github "feixue299/FXImageTextView" ~> 0.1.4
 ```
 
 Then run `carthage update`.
@@ -32,7 +32,7 @@ Create a `Package.swift` file.
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/feixue299/FXImageTextView.git", from: "0.1.3")
+        .package(url: "https://github.com/feixue299/FXImageTextView.git", from: "0.1.4")
     ],
     // ...
 )

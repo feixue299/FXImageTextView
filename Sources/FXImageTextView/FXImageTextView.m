@@ -101,7 +101,7 @@
             [self.label.topAnchor constraintEqualToAnchor:self.topAnchor constant:self.titleEdgeInsets.top].active = YES;
             [self.label.rightAnchor constraintEqualToAnchor:self.rightAnchor constant:-self.titleEdgeInsets.right].active = YES;
             [self.label.leftAnchor constraintEqualToAnchor:self.leftAnchor constant:self.titleEdgeInsets.left].active = YES;
-            [self.label.bottomAnchor constraintEqualToAnchor:self.label.topAnchor constant:-(self.titleEdgeInsets.bottom + self.imageEdgeInsets.top)].active = YES;
+            [self.label.bottomAnchor constraintEqualToAnchor:self.imageView.topAnchor constant:-(self.titleEdgeInsets.bottom + self.imageEdgeInsets.top)].active = YES;
             [self.imageView.bottomAnchor constraintEqualToAnchor:self.bottomAnchor constant:-self.imageEdgeInsets.bottom].active = YES;
             [self.imageView.rightAnchor constraintEqualToAnchor:self.rightAnchor constant:-self.imageEdgeInsets.right].active = YES;
             [self.imageView.leftAnchor constraintEqualToAnchor:self.leftAnchor constant:self.imageEdgeInsets.left].active = YES;

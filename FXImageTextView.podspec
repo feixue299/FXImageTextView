@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "FXImageTextView"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.4"
   spec.summary      = "A FXImageTextView"
   spec.homepage     = "https://github.com/feixue299/FXImageTextView"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
